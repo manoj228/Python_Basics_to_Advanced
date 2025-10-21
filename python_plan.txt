@@ -1,0 +1,246 @@
+🗓️ 12-Week Python Backend Developer Roadmap
+📆 Phase 1 — Core Python (Oct 21 – Nov 3)
+
+Goal: Get fluent in Python & write modular, testable code.
+
+🧩 Week 1 (Oct 21 – Oct 27)
+
+Topics:
+Python basics (syntax, lists, dicts, loops, functions)
+File I/O (JSON, CSV)
+Exception handling
+Virtual environments (venv or poetry)
+Modules & imports
+
+Project:
+🧮 CLI Expense Tracker — store transactions in JSON file.
+
+Resources:
+Python Docs Tutorial
+“Automate the Boring Stuff with Python” (Ch. 1–8)
+
+
+
+
+🧩 Week 2 (Oct 28 – Nov 3)
+
+Topics:
+
+OOP in Python (Classes, Inheritance, Polymorphism)
+
+Decorators & Generators
+
+Lambda, Map, Filter, Reduce
+
+Basic unit testing (pytest)
+
+Project:
+🗂️ File Organizer Script — move files by extension type.
+
+Resources:
+
+Real Python: OOP & Decorators
+
+pytest documentation
+
+📆 Phase 2 — Advanced Python + Async (Nov 4 – Nov 17)
+
+Goal: Write production-level, efficient Python code.
+
+🧩 Week 3 (Nov 4 – Nov 10)
+
+Topics:
+
+Iterators, Context Managers
+
+Logging setup
+
+Config management (.env, dotenv)
+
+Type hints (typing, mypy)
+
+Project:
+🧰 Log Analyzer Tool — reads and parses app logs with context managers.
+
+🧩 Week 4 (Nov 11 – Nov 17)
+
+Topics:
+
+Async programming (asyncio, await)
+
+Concurrent tasks
+
+HTTP requests (aiohttp, httpx)
+
+Testing async functions
+
+Project:
+🌐 Async Web Scraper — scrape multiple URLs concurrently.
+
+Resources:
+
+FastAPI async docs
+
+Corey Schafer YouTube (Asyncio playlist)
+
+📆 Phase 3 — Web Frameworks (Nov 18 – Dec 1)
+
+Goal: Build RESTful APIs using FastAPI (recommended).
+
+🧩 Week 5 (Nov 18 – Nov 24)
+
+Topics:
+
+FastAPI basics: routing, query params
+
+Request/response models (Pydantic)
+
+CRUD endpoints
+
+HTTP methods & status codes
+
+Swagger/OpenAPI docs (auto-generated)
+
+Project:
+🧾 Todo API (FastAPI + SQLite) — CRUD endpoints.
+
+🧩 Week 6 (Nov 25 – Dec 1)
+
+Topics:
+
+Middleware
+
+Dependency injection
+
+Error handling
+
+Authentication basics (JWT)
+
+Project:
+🔐 Todo API v2 — add JWT login & user management.
+
+Resources:
+
+FastAPI Official Docs
+
+Josean Martinez YouTube (FastAPI Crash Course)
+
+📆 Phase 4 — Databases & ORM (Dec 2 – Dec 15)
+
+Goal: Master relational DB + ORM usage.
+
+🧩 Week 7 (Dec 2 – Dec 8)
+
+Topics:
+
+SQL basics (joins, indexes, transactions)
+
+PostgreSQL setup (via Docker)
+
+SQLAlchemy ORM models
+
+CRUD via ORM
+
+Project:
+🗄️ Blog API — Users, Posts, Comments (SQLAlchemy + FastAPI).
+
+🧩 Week 8 (Dec 9 – Dec 15)
+
+Topics:
+
+Alembic (DB migrations)
+
+Pagination, filtering, sorting
+
+Relationships (One-to-Many, Many-to-Many)
+
+Query optimization
+
+Project:
+📰 Blog API v2 — add relationships, migrations & search.
+
+📆 Phase 5 — Auth, Caching, Background Tasks (Dec 16 – Dec 29)
+
+Goal: Add scalability and async task processing.
+
+🧩 Week 9 (Dec 16 – Dec 22)
+
+Topics:
+
+OAuth2 (Google/GitHub login)
+
+Redis setup
+
+Caching API responses
+
+Project:
+⚙️ News Aggregator API — Cache latest headlines using Redis.
+
+🧩 Week 10 (Dec 23 – Dec 29)
+
+Topics:
+
+Celery / RQ (background tasks)
+
+Sending emails asynchronously
+
+File uploads & static files
+
+Project:
+📬 Email Notifier API — Send emails asynchronously via Celery.
+
+📆 Phase 6 — Deployment & System Design (Dec 30 – Jan 15)
+
+Goal: Deploy your backend like a professional.
+
+🧩 Week 11 (Dec 30 – Jan 5)
+
+Topics:
+
+Docker & Docker Compose
+
+Gunicorn / Uvicorn + Nginx
+
+Environment variables & secrets
+
+Project:
+🐳 Dockerize Blog API — run PostgreSQL, Redis, FastAPI in containers.
+
+🧩 Week 12 (Jan 6 – Jan 15)
+
+Topics:
+
+CI/CD (GitHub Actions)
+
+Deploy to Render / AWS / Railway
+
+Logging & monitoring
+
+System Design Basics:
+
+Load balancing
+
+Caching
+
+Message queues
+
+Scalability principles
+
+Final Capstone Project:
+🌍 ComiFix Backend Service
+
+FastAPI + PostgreSQL + Redis + Celery
+
+JWT Auth + Async tasks
+
+Dockerized + CI/CD deployed
+
+🧠 Bonus (Optional if Time Allows)
+
+GraphQL (Ariadne / Strawberry)
+
+gRPC / WebSockets
+
+Kafka / RabbitMQ
+
+ElasticSearch integration
